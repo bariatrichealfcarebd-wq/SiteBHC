@@ -36,7 +36,12 @@ function HomeBanner() {
               <Button variant="light" size="lg" href="#sobre">
                 Descubra Nossa Missão
               </Button>
-              <Button variant="outline-light" size="lg" href="/app">
+             <Button 
+                variant="outline-light" 
+                size="lg" 
+                as={Link} // 💡 CORREÇÃO: Renderiza o Button como um Link
+                to="/app" // 💡 CORREÇÃO: Aponta para a rota interna do React
+              >
                 Acessar o App Web
               </Button>
             </div>
@@ -56,5 +61,6 @@ function HomeBanner() {
     </div>
   );
 }
+
 
 export default HomeBanner;
