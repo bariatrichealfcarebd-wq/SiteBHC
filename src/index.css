@@ -1,60 +1,42 @@
-/* src/index.css - Variáveis de Cores Personalizadas */
-
-/* Definição das variáveis de cor */
-:root {
-  /* Cores Principais do BHC */
-  --color-bhc-primary: #75EBAC; /* Verde Claro/Ciano (Chamativo, Ação) */
-  --color-bhc-secondary: #80C09E; /* Verde Médio (Elementos de Suporte) */
-  --color-bhc-dark: #294134; /* Verde Escuro (Textos e Fundo Principal) */
-  --color-bhc-text: #183324; /* Mais Escuro (Textos e Destaques) */
-  --color-bhc-muted: #566B60; /* Cinza Esverdeado (Textos Secundários) */
-}
-
-/* SOBRESCREVER CLASSES E VARIAVEIS DO BOOTSTRAP 
-   Isso permite que "bg-primary", "btn-primary", "text-primary" usem suas novas cores.
-*/
-.bg-primary {
-  background-color: var(--color-bhc-dark) !important;
-}
-
-.text-primary {
-  color: var(--color-bhc-dark) !important;
-}
-
-.btn-primary {
-  --bs-btn-color: #ffffff;
-  --bs-btn-bg: var(--color-bhc-primary);
-  --bs-btn-border-color: var(--color-bhc-primary);
-  --bs-btn-hover-bg: #80C09E; /* Um pouco mais escuro no hover */
-  --bs-btn-hover-border-color: #80C09E;
-}
-
-/* Se você usar a cor 'success' (para Missão, por exemplo) */
-.bg-success {
-  background-color: var(--color-bhc-secondary) !important;
-}
-
-.text-success {
-  color: var(--color-bhc-secondary) !important;
-}
-
-/* Estilos de Layout (já havíamos definido) */
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden; 
-}
 #root {
-  width: 100%;
-  min-height: 100vh;
-}/* ... Seus estilos de cores ... */
-
-/* Adiciona scroll suave para toda a página */
-html {
-  scroll-behavior: smooth;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
-.bg-dark {
-  /* Se você estava usando bg="dark" na Navbar, isso garante a sua cor */
-  background-color: #294134 !important; 
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
