@@ -36,7 +36,6 @@ function HomeBanner() {
               <Button variant="light" size="lg" href="#sobre">
                 Descubra Nossa Missão
               </Button>
-            
             </div>
           </Col>
           
@@ -55,6 +54,4 @@ function HomeBanner() {
   );
 }
 
-
 export default HomeBanner;
-
