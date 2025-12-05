@@ -20,7 +20,7 @@ function Contact() {
               
               <p className="d-flex align-items-center mb-3">
                 <i className="bi bi-envelope fs-5 me-3 text-secondary">📧</i> 
-                <strong>Email de Suporte:</strong> xxxxx@xxxx.com
+                <strong>Email de Suporte:</strong> Ericaoliveira2282@gmail.com
               </p>
               <hr />
               <p className="text-center text-muted small">
@@ -38,3 +38,4 @@ function Contact() {
 
 
 export default Contact;
+
