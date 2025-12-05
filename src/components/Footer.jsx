@@ -31,8 +31,7 @@ function Footer() {
           {/* Coluna 3: Contato Rápido */}
           <Col md={4} className="mb-4">
             <h5 className="text-white">Fale Conosco</h5>
-            <p className="small text-white opacity-75 mb-1">Email: bariatrichealfcarebd@gmail.com</p>
-            <p className="small text-white opacity-75">Telefone: (11) 99876-5432</p>
+            <p className="small text-white opacity-75 mb-1">Email: Ericaoliveira2282@gmail.com</p>
           </Col>
         </Row>
       </Container>

@@ -20,22 +20,9 @@ function Contact() {
               
               <p className="d-flex align-items-center mb-3">
                 <i className="bi bi-envelope fs-5 me-3 text-secondary">📧</i> 
-                <strong>Email de Suporte:</strong> suporte@bariatricare.com
+                <strong>Email de Suporte:</strong> Ericaoliveira2282@gmail.com
               </p>
               
-              <p className="d-flex align-items-center mb-3">
-                <i className="bi bi-phone fs-5 me-3 text-secondary">📞</i>
-                <strong>Telefone:</strong> (11) 99999-9999
-              </p>
-
-              <p className="d-flex align-items-start">
-                <i className="bi bi-geo-alt fs-5 me-3 text-secondary">📍</i>
-                <span>
-                  <strong>Endereço Sede:</strong><br />
-                  Rua da Saúde, 123 - Centro<br />
-                  São Paulo - SP
-                </span>
-              </p>
               
               <hr />
               <p className="text-center text-muted small">
