@@ -5,7 +5,7 @@ import AppPresentation from '../components/AppPresentation';
 
 // ⚠️ MANTENHA O ROTEAMENTO LIMPO: 
 // Defina a URL do FlutterFlow em uma constante para fácil alteração
-const FLUTTERFLOW_URL = "SUA_URL_DO_FLUTTERFLOW_AQUI"; 
+const FLUTTERFLOW_URL = "https://bariatric-health-care.flutterflow.app"; 
 // Lembre-se de substituir o placeholder acima pela URL real do seu site!
 
 function AppPage() {
@@ -16,7 +16,7 @@ function AppPage() {
         melhor a tela, dando mais espaço para o app web.
       */}
       
-      <AppPresentation flutterFlowUrl={"https://bariatric-health-care-6d8.flutterflow.app"} />
+      <AppPresentation flutterFlowUrl={"https://bariatric-health-care.flutterflow.app"} />
       
     </Container>
   );

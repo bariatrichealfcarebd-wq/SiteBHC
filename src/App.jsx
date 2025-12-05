@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 // 🚀 CAMINHO ARRUMADO: Usando o caminho absoluto a partir de src/
 // (Isso funciona melhor e evita problemas de referência relativa)
-import bhcLogo from '/src/assets/logo-bhc.png'; 
+import bhcLogo from '/src/assets/logoBariatric2000x2000.png'; 
 // ⚠️ ATENÇÃO: Verifique se o nome do arquivo "logo-bhc.png" e a extensão estão corretos!
 
 function App() {
