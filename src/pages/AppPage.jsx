@@ -6,9 +6,14 @@ const FLUTTERFLOW_URL = "https://bariatric-health-care.flutterflow.app";
 
 function AppPage() {
   return (
-    // Container flex que ocupa a altura toda e organiza os itens em coluna
+    // Container que ocupa a altura toda
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <ReducedNavbar />
+      {/* Navbar oculta no mobile, visível apenas no desktop (lg+) */}
+      <div className="d-none d-lg-block">
+        <ReducedNavbar />
+      </div>
+      
+      {/* App ocupa tela inteira no mobile */}
       <AppPresentation flutterFlowUrl={FLUTTERFLOW_URL} />
     </div>
   );
