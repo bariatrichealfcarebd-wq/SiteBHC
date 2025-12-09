@@ -32,6 +32,7 @@ function Footer() {
           <Col md={4} className="mb-4">
             <h5 className="text-white">Fale Conosco</h5>
             <p className="small text-white opacity-75 mb-1">Email: Ericaoliveira2282@gmail.com</p>
+  
           </Col>
         </Row>
       </Container>
@@ -39,4 +40,6 @@ function Footer() {
   );
 }
 
+
 export default Footer;
+

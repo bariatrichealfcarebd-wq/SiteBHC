@@ -22,8 +22,6 @@ function Contact() {
                 <i className="bi bi-envelope fs-5 me-3 text-secondary">📧</i> 
                 <strong>Email de Suporte:</strong> Ericaoliveira2282@gmail.com
               </p>
-              
-              
               <hr />
               <p className="text-center text-muted small">
                   Atendimento de Segunda a Sexta, das 9h às 18h.
@@ -38,4 +36,6 @@ function Contact() {
   );
 }
 
+
 export default Contact;
+
