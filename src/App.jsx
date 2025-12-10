@@ -20,6 +20,7 @@ import bhcLogo from '/src/assets/logoBariatric2000x2000.png';
 function PageContent() {
   const location = useLocation();
   const showNavbar = location.pathname !== '/app';
+  const showFooter = location.pathname !== '/app';
 
   return (
     <>
@@ -62,8 +63,8 @@ function PageContent() {
         <Route path="/" element={<HomePage />} />
         <Route path="/app" element={<AppPage />} />
       </Routes>
-      
-      <Footer />
+
+      {showFooter && <Footer />}
     </>
   );
 }
